@@ -1,0 +1,64 @@
+/* Estilos para hacerlo responsive */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-top: 90;
+  }
+
+  .options-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+
+  .option {
+    width: 48%;
+    margin: 0%;
+    cursor: pointer;
+  }
+
+  .question-wrapper {
+    margin-bottom: 60px; /* Ajusta el valor según el espacio deseado entre preguntas */
+    margin-top: 60px; 
+  }
+
+  .question-text {
+    color: #000; /* Color principal de la pregunta */
+  }
+  
+  .highlight {
+    color: #00acec; /* Color de resaltado de la pregunta */
+  }
+  
+  
+  @media (max-width: 480px) {
+    /* Estilos para pantallas más pequeñas */
+    .option {
+      width: 100%;
+    }
+    .options-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 60px;
+    }
+
+    h2 {
+      margin-top: 90;
+    }
+
+  }
